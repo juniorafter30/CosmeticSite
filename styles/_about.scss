@@ -1,14 +1,39 @@
 #about {
   min-height: 100vh;
-  background: $background-yellow;
+  width: 100%;
+  background: $background-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $background-pink;
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  position: relative;
+}
+.about-wrapper {
+  margin-top: 15rem;
+  top: 0;
+  max-width: 800px;
+  z-index: 1;
+  padding: 4rem;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .clip-path-about {
-  clip-path: polygon(0 0, 50% 20%, 100% 0);
-  background: $background-blue;
+  clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
+  background: $background-yellow;
   position: absolute;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
+  z-index: 0;
 }

@@ -1,7 +1,11 @@
 #przemiany {
   flex-direction: column;
-  min-height: 120vh;
+  min-height: 100vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   background: -webkit-linear-gradient(
     to right,
     #dfc48d,
@@ -16,17 +20,23 @@
     font-size: 4rem;
   }
 }
+.clip-path-changes {
+  clip-path: polygon(50% 91%, 0 100%, 100% 100%);
+  background: $background-blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
 
 $bg: #fef8f9;
 
 .container {
   max-width: 700px;
-
-  padding: 50px;
+  padding: 2rem;
   position: relative;
-  background: $background-blue;
-  border: 1px solid black;
-  border-radius: 5%;
 
   img {
     max-width: 100%;
