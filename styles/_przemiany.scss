@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  color: white;
   background: -webkit-linear-gradient(
     to right,
     #dfc48d,
@@ -17,7 +18,11 @@
     #93a048
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+    background: $background-blue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 .clip-path-changes {
@@ -37,12 +42,15 @@ $bg: #fef8f9;
   max-width: 700px;
   padding: 2rem;
   position: relative;
+  margin: 5rem;
 
   img {
     max-width: 100%;
     display: none;
     border: 2px solid rgb(0, 21, 42);
     box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
+    padding: 1rem;
+    background: $background-blue;
   }
 
   img.onTop {
@@ -59,7 +67,7 @@ $bg: #fef8f9;
     text-decoration: none;
     background: rgba(1, 67, 117, 0.1);
     padding: 1px 5px;
-    color: $background-blue;
+    color: rgb(3, 22, 46);
     font-size: 3.5rem;
   }
 
@@ -112,12 +120,12 @@ $bg: #fef8f9;
 .photo-button-left {
   position: absolute;
   top: 45%;
-  left: 8%;
+  left: 6%;
 }
 .photo-button-right {
   position: absolute;
   top: 45%;
-  right: 8%;
+  right: 6%;
 }
 
 @keyframes fadeImg {

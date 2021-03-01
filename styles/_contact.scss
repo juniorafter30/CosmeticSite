@@ -1,4 +1,6 @@
 #contact {
   min-height: 100vh;
   background: $background-yellow;
+  @include flex;
+  flex-direction: column;
 }

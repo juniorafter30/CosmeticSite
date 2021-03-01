@@ -4,26 +4,19 @@
   width: 100%;
   position: relative;
   background: $background-blue;
-  color: white;
+  color: #9d8897;
   @include flex;
   overflow: hidden;
   header {
     border-bottom: 0.5px solid black;
   }
 
-  .products-nav {
-    justify-content: center;
-    width: 100%;
-    background: $background-blue;
-    padding: 1rem;
-  }
-
-  color: #9d8897;
   h1 {
     font-size: 3rem;
     z-index: 1;
     padding: 2rem;
     margin-top: 2rem;
+    color: $background-yellow;
   }
   .products-intro {
     padding: 4rem;
@@ -83,6 +76,9 @@
 }
 
 .product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   img {
     width: 100%;
     max-width: 400px;
@@ -98,7 +94,7 @@
     justify-self: center;
     margin: auto;
   }
-  flex: 1 1 25rem;
+  flex: 1 1 30rem;
 }
 .product-text {
   max-width: 350px;

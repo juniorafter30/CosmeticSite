@@ -9,6 +9,7 @@
   color: $background-pink;
   h1 {
     font-size: 3rem;
+    color: rgb(218, 214, 214);
   }
   p {
     font-size: 1.5rem;
@@ -16,7 +17,7 @@
   position: relative;
 }
 .about-wrapper {
-  margin-top: 15rem;
+  margin-top: 20rem;
   top: 0;
   max-width: 800px;
   z-index: 1;

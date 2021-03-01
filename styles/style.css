@@ -168,6 +168,19 @@ nav img {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
   background: linear-gradient(to right, #dfc48d, #93a048);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #work {
@@ -232,7 +245,7 @@ nav img {
   position: relative;
   background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
   background: linear-gradient(to right, #00152a, #014375);
-  color: white;
+  color: #9d8897;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,7 +256,6 @@ nav img {
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
-  color: #9d8897;
   z-index: 1;
 }
 
@@ -251,21 +263,12 @@ nav img {
   border-bottom: 0.5px solid black;
 }
 
-#products .products-nav {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
-  background: linear-gradient(to right, #00152a, #014375);
-  padding: 1rem;
-}
-
 #products h1 {
   font-size: 3rem;
   z-index: 1;
   padding: 2rem;
   margin-top: 2rem;
+  color: linear-gradient(to right, #dfc48d, #93a048);
 }
 
 #products .products-intro {
@@ -340,9 +343,18 @@ nav img {
 }
 
 .product-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
 }
 
 .product-image img {
@@ -420,6 +432,7 @@ nav img {
 
 #about h1 {
   font-size: 3rem;
+  color: #dad6d6;
 }
 
 #about p {
@@ -427,7 +440,7 @@ nav img {
 }
 
 .about-wrapper {
-  margin-top: 15rem;
+  margin-top: 20rem;
   top: 0;
   max-width: 800px;
   z-index: 1;
@@ -469,6 +482,7 @@ nav img {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  color: white;
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
   background: linear-gradient(to right, #dfc48d, #93a048);
@@ -476,7 +490,12 @@ nav img {
 }
 
 #przemiany h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-top: 5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
+  background: linear-gradient(to right, #00152a, #014375);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .clip-path-changes {
@@ -496,6 +515,7 @@ nav img {
   max-width: 700px;
   padding: 2rem;
   position: relative;
+  margin: 5rem;
 }
 
 .container img {
@@ -504,6 +524,9 @@ nav img {
   border: 2px solid #00152a;
   -webkit-box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
           box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
+  padding: 1rem;
+  background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
+  background: linear-gradient(to right, #00152a, #014375);
 }
 
 .container img.onTop {
@@ -521,7 +544,7 @@ nav img {
   text-decoration: none;
   background: rgba(1, 67, 117, 0.1);
   padding: 1px 5px;
-  color: linear-gradient(to right, #00152a, #014375);
+  color: #03162e;
   font-size: 3.5rem;
 }
 
@@ -594,13 +617,13 @@ nav img {
 .photo-button-left {
   position: absolute;
   top: 45%;
-  left: 8%;
+  left: 6%;
 }
 
 .photo-button-right {
   position: absolute;
   top: 45%;
-  right: 8%;
+  right: 6%;
 }
 
 @-webkit-keyframes fadeImg {
