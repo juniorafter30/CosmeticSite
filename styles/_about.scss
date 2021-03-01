@@ -9,7 +9,7 @@
   color: $background-pink;
   h1 {
     font-size: 3rem;
-    color: rgb(218, 214, 214);
+    color: $headlines;
     text-align: center;
   }
   p {
@@ -25,7 +25,8 @@
   padding: 4rem;
   a {
     text-decoration: none;
-    color: white;
+    color: $headlines;
+    font-size: 1.6rem;
   }
 }
 

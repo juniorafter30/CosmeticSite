@@ -291,7 +291,7 @@ nav img {
   z-index: 1;
   padding: 2rem;
   margin-top: 2rem;
-  color: linear-gradient(to right, #fff, #dfc48d);
+  color: #ffe6f8;
 }
 
 #products .products-intro {
@@ -321,7 +321,7 @@ nav img {
 .product-name {
   font-size: 1.9rem;
   padding: 3rem;
-  color: #ecc9e2;
+  color: #ffe6f8;
 }
 
 .product-cointainer {
@@ -392,7 +392,8 @@ nav img {
      object-fit: cover;
   padding: 0.5rem;
   border: 1px solid black;
-  background: #9d8897;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -456,7 +457,7 @@ nav img {
 
 #about h1 {
   font-size: 3rem;
-  color: #dad6d6;
+  color: #ffe6f8;
   text-align: center;
 }
 
@@ -474,7 +475,8 @@ nav img {
 
 .about-wrapper a {
   text-decoration: none;
-  color: white;
+  color: #ffe6f8;
+  font-size: 1.6rem;
 }
 
 .clip-path-about {

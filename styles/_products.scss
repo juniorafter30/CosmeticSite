@@ -16,7 +16,7 @@
     z-index: 1;
     padding: 2rem;
     margin-top: 2rem;
-    color: $background-yellow;
+    color: $headlines;
   }
   .products-intro {
     padding: 4rem;
@@ -44,7 +44,7 @@
 .product-name {
   font-size: 1.9rem;
   padding: 3rem;
-  color: $background-pink;
+  color: $headlines;
 }
 
 .product-cointainer {
@@ -90,7 +90,7 @@
     object-fit: cover;
     padding: 0.5rem;
     border: 1px solid black;
-    background: #9d8897;
+    background: $background-yellow;
     align-self: center;
     justify-self: center;
     margin: auto;
