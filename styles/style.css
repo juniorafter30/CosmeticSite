@@ -159,7 +159,10 @@ nav img {
   position: absolute;
   top: 20%;
   right: 20%;
-  color: #5c3a52;
+  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
+  background: linear-gradient(to right, #044688, #0573c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.2rem;
   text-align: center;
 }
@@ -292,6 +295,7 @@ nav img {
 #products .products-intro {
   padding: 4rem;
   max-width: 80rem;
+  color: #ecc9e2;
 }
 
 #products .products-intro p {
@@ -451,6 +455,7 @@ nav img {
 #about h1 {
   font-size: 3rem;
   color: #dad6d6;
+  text-align: center;
 }
 
 #about p {
