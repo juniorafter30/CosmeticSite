@@ -1,0 +1,14 @@
+#about {
+  min-height: 100vh;
+  background: $background-yellow;
+}
+
+.clip-path-about {
+  clip-path: polygon(0 0, 50% 20%, 100% 0);
+  background: $background-blue;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}

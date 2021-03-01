@@ -1,0 +1,26 @@
+/* GLOBAL STYLES AND VARIABLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+//MIXINS
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//VARIABLES
+
+$background-blue: linear-gradient(to right, #00152a, #014375);
+$background-yellow: linear-gradient(to right, #dfc48d, #93a048);
