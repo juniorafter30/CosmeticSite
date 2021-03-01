@@ -77,6 +77,8 @@ header {
   background: linear-gradient(to right, #044688, #0573c7);
   min-height: 10vh;
   border: 1px solid black;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 nav {

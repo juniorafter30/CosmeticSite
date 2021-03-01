@@ -6,6 +6,7 @@ const navLinks = document.querySelector('.nav-links');
 const heroHeadline = document.querySelector('.hero-headline');
 
 
+
 const tl = new TimelineMax()
 
 tl.fromTo(hero,1,{height: "0%"},{height:"80%", ease: Power2.easeInOut})

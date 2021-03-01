@@ -29,6 +29,7 @@ header {
   background: $background-blue;
   min-height: 10vh;
   border: 1px solid black;
+  transition: all 1s ease;
 }
 nav {
   width: 80%;
