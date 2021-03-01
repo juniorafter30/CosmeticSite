@@ -1,4 +1,19 @@
 @media screen and (max-width: 1100px) {
+  .logo {
+    width: 10rem;
+  }
+  #work {
+    min-height: 200vh;
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 2.3rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
   .nav-links {
     height: 100%;
     width: 100%;
@@ -25,7 +40,7 @@
   }
   .burger {
     position: fixed;
-    top: 8rem;
+    top: 5rem;
     right: 10rem;
     width: 4rem;
     cursor: pointer;

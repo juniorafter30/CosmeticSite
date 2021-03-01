@@ -51,9 +51,9 @@ function keyPress(e) {
 
 
 window.addEventListener('scroll', () => {
-    header.classList.toggle('on-scroll', window.scrollY > 1);
+    header.classList.toggle('on-scroll', window.scrollY > 20);
 
-    });
+    })
 
 
     burger.addEventListener('click', () => {
