@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ceaec5;
+  background: #ecc9e2;
   border-radius: 1rem;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
@@ -112,7 +112,7 @@ nav ul li {
 }
 
 nav a {
-  color: #ceaec5;
+  color: #ecc9e2;
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -209,7 +209,7 @@ nav img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #ceaec5;
+  color: #ecc9e2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +315,7 @@ nav img {
 .product-name {
   font-size: 1.9rem;
   padding: 3rem;
-  color: #ceaec5;
+  color: #ecc9e2;
 }
 
 .product-cointainer {
@@ -355,7 +355,7 @@ nav img {
 }
 
 .product-text::-webkit-scrollbar-thumb {
-  background: #ceaec5;
+  background: #ecc9e2;
   border-radius: 1rem;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
@@ -404,7 +404,7 @@ nav img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  color: #ceaec5;
+  color: #ecc9e2;
 }
 
 .product-name {
@@ -444,7 +444,7 @@ nav img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #ceaec5;
+  color: #ecc9e2;
   position: relative;
 }
 
@@ -607,7 +607,7 @@ nav img {
       -ms-flex: 2;
           flex: 2;
   text-align: center;
-  color: #ceaec5;
+  color: #ecc9e2;
 }
 
 .slider-nav .arrow {
