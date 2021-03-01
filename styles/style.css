@@ -139,8 +139,8 @@ nav img {
   height: 100vh;
   z-index: -2;
   background: #ee9ca7;
-  background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
-  background: linear-gradient(to right, #dfc48d, #93a048);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
 }
 
 .hero {
@@ -189,8 +189,8 @@ nav img {
 
 #contact {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
-  background: linear-gradient(to right, #dfc48d, #93a048);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,7 +291,7 @@ nav img {
   z-index: 1;
   padding: 2rem;
   margin-top: 2rem;
-  color: linear-gradient(to right, #dfc48d, #93a048);
+  color: linear-gradient(to right, #fff, #dfc48d);
 }
 
 #products .products-intro {
@@ -308,8 +308,8 @@ nav img {
 .clip-path-products {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
           clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
-  background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
-  background: linear-gradient(to right, #dfc48d, #93a048);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
   position: absolute;
   top: 0;
   left: 0;
@@ -480,8 +480,8 @@ nav img {
 .clip-path-about {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
           clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
-  background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
-  background: linear-gradient(to right, #dfc48d, #93a048);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
   position: absolute;
   top: 0;
   left: 0;
@@ -508,10 +508,8 @@ nav img {
           justify-content: center;
   position: relative;
   color: white;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#dfc48d), to(#93a048));
-  background: linear-gradient(to right, #dfc48d, #93a048);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
+  background: linear-gradient(to right, #fff, #dfc48d);
 }
 
 #przemiany h1 {
