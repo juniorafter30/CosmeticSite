@@ -24,3 +24,18 @@ html {
 $background-blue: linear-gradient(to right, #00152a, #014375);
 $background-yellow: linear-gradient(to right, #dfc48d, #93a048);
 $background-pink: #9d8897;
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: $background-blue;
+}
+body::-webkit-scrollbar {
+  width: 1.2rem;
+  background: $background-blue;
+}
+body::-webkit-scrollbar-thumb {
+  background: $background-pink;
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

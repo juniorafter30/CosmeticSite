@@ -12,6 +12,24 @@ html {
   font-size: 62.5%;
 }
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: linear-gradient(to right, #00152a, #014375);
+}
+
+body::-webkit-scrollbar {
+  width: 1.2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
+  background: linear-gradient(to right, #00152a, #014375);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9d8897;
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
 /* NAVIGATION STYLINGS */
 #home {
   min-height: 100vh;
