@@ -517,8 +517,8 @@ nav img {
 }
 
 .clip-path-changes {
-  -webkit-clip-path: polygon(50% 91%, 0 100%, 100% 100%);
-          clip-path: polygon(50% 91%, 0 100%, 100% 100%);
+  -webkit-clip-path: polygon(50% 95%, 0 100%, 100% 100%);
+          clip-path: polygon(50% 95%, 0 100%, 100% 100%);
   background: -webkit-gradient(linear, left top, right top, from(#00152a), to(#014375));
   background: linear-gradient(to right, #00152a, #014375);
   position: absolute;
