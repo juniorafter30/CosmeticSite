@@ -139,8 +139,8 @@ nav img {
   height: 100vh;
   z-index: -2;
   background: #ee9ca7;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
 }
 
 .hero {
@@ -189,8 +189,8 @@ nav img {
 
 #contact {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,8 +308,8 @@ nav img {
 .clip-path-products {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
           clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
   position: absolute;
   top: 0;
   left: 0;
@@ -392,8 +392,8 @@ nav img {
      object-fit: cover;
   padding: 0.5rem;
   border: 1px solid black;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -504,8 +504,8 @@ nav img {
 .clip-path-about {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 2%, 45% 15%, 0 25%);
           clip-path: polygon(0% 0%, 100% 0, 100% 2%, 45% 15%, 0 25%);
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
   position: absolute;
   top: 0;
   left: 0;
@@ -532,8 +532,8 @@ nav img {
           justify-content: center;
   position: relative;
   color: white;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#dfc48d));
-  background: linear-gradient(to right, #fff, #dfc48d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
+  background: linear-gradient(to right, #fff, #f3d69d);
 }
 
 #przemiany h1 {
