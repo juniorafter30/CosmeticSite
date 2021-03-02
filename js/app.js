@@ -70,8 +70,13 @@ window.addEventListener('scroll', () => {
       })
   })    
 
+function addClass() {
+    document.body.classList.add("sent");
+  }
+  
 
 
-  nextItem.addEventListener('click', showNextItem);
+sendLetter.addEventListener("click", addClass);
+nextItem.addEventListener('click', showNextItem);
 previousItem.addEventListener('click', showPreviousItem);
 document.addEventListener('keydown', keyPress);
