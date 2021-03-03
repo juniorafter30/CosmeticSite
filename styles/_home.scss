@@ -27,9 +27,8 @@ header {
 }
 .on-scroll {
   background: $background-blue;
-  min-height: 10vh;
-  border: 1px solid black;
-  transition: all 1s ease;
+  min-height: 8vh;
+  box-shadow: 0 8px 6px -6px black;
 }
 nav {
   width: 80%;
@@ -85,6 +84,7 @@ nav {
   object-fit: cover;
 
   box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
+  border: 2px solid rgb(253, 237, 239);
 }
 
 .hero-headline {

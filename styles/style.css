@@ -15,13 +15,13 @@ html {
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
-  background-color: linear-gradient(to right, #044688, #0573c7);
+  background-color: linear-gradient(to right, #0763c0, #0888eb);
 }
 
 body::-webkit-scrollbar {
   width: 1.2rem;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -73,12 +73,11 @@ header {
 }
 
 .on-scroll {
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
-  min-height: 10vh;
-  border: 1px solid black;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
+  min-height: 8vh;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
 nav {
@@ -127,8 +126,8 @@ nav img {
   width: 13rem;
   border-radius: 50%;
   padding: 1.5rem;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
 }
 
 .background-slider {
@@ -139,8 +138,8 @@ nav img {
   height: 100vh;
   z-index: -2;
   background: #ee9ca7;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffd8de));
+  background: linear-gradient(to right, #fff, #ffd8de);
 }
 
 .hero {
@@ -155,14 +154,15 @@ nav img {
      object-fit: cover;
   -webkit-box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
           box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
+  border: 2px solid #fdedef;
 }
 
 .hero-headline {
   position: absolute;
   top: 20%;
   right: 20%;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.2rem;
@@ -175,8 +175,8 @@ nav img {
   left: 0;
   -webkit-clip-path: circle(52.8% at 80% 9%);
           clip-path: circle(52.8% at 80% 9%);
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   width: 100%;
   height: 100vh;
   z-index: -1;
@@ -189,8 +189,8 @@ nav img {
 
 #contact {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffd8de));
+  background: linear-gradient(to right, #fff, #ffd8de);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,12 +204,138 @@ nav img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #044688;
+}
+
+#contact h1 {
+  font-size: 2.3rem;
+  margin: 2rem;
+}
+
+#contact h2 {
+  margin: 2rem;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #0b72da;
+  font-size: 1.8rem;
+}
+
+#contact a:hover {
+  color: pink;
+}
+
+.contact-wrapper {
+  max-width: 80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 70rem;
+  max-height: 40rem;
+  border: 1px solid black;
+  background: #ffe0e4;
+  padding: 2rem;
+}
+
+form input {
+  background: transparent;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  margin: 2px;
+  color: #044688;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+form input::-webkit-input-placeholder {
+  color: #044688;
+}
+
+form input:-ms-input-placeholder {
+  color: #044688;
+}
+
+form input::-ms-input-placeholder {
+  color: #044688;
+}
+
+form input::placeholder {
+  color: #044688;
+}
+
+form input:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
+  color: pink;
+}
+
+form input:hover::-webkit-input-placeholder {
+  color: pink;
+}
+
+form input:hover:-ms-input-placeholder {
+  color: pink;
+}
+
+form input:hover::-ms-input-placeholder {
+  color: pink;
+}
+
+form input:hover::placeholder {
+  color: pink;
+}
+
+form button {
+  background: transparent;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #044688;
+  padding: 0.2rem 2rem;
+  margin-top: 1rem;
+  border-radius: 2%;
+}
+
+form button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
+  color: pink;
 }
 
 #work {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -241,21 +367,22 @@ nav img {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  width: 80%;
+  max-width: 80rem;
 }
 
 .work-container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 2rem;
 }
 
 .work-container h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   padding: 3rem;
 }
 
 .work-container p {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  padding: 2rem;
 }
 
 #products {
@@ -266,8 +393,8 @@ nav img {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   color: #9d8897;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,8 +435,8 @@ nav img {
 .clip-path-products {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
           clip-path: polygon(0% 0%, 100% 0, 100% 6%, 45% 15%, 0 24%);
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffd8de));
+  background: linear-gradient(to right, #fff, #ffd8de);
   position: absolute;
   top: 0;
   left: 0;
@@ -339,8 +466,8 @@ nav img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   padding: 2rem;
   border: 1px solid black;
   margin: 2rem;
@@ -392,8 +519,7 @@ nav img {
      object-fit: cover;
   padding: 0.5rem;
   border: 1px solid black;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: #ecc9e2;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -448,8 +574,8 @@ nav img {
 }
 
 .order:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   color: #9d8897;
   -webkit-box-shadow: 1px 1px 1px 1px #1a43f8;
           box-shadow: 1px 1px 1px 1px #1a43f8;
@@ -458,8 +584,8 @@ nav img {
 #about {
   min-height: 100vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,8 +630,8 @@ nav img {
 .clip-path-about {
   -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 2%, 45% 15%, 0 25%);
           clip-path: polygon(0% 0%, 100% 0, 100% 2%, 45% 15%, 0 25%);
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffd8de));
+  background: linear-gradient(to right, #fff, #ffd8de);
   position: absolute;
   top: 0;
   left: 0;
@@ -532,15 +658,15 @@ nav img {
           justify-content: center;
   position: relative;
   color: white;
-  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#f3d69d));
-  background: linear-gradient(to right, #fff, #f3d69d);
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#ffd8de));
+  background: linear-gradient(to right, #fff, #ffd8de);
 }
 
 #przemiany h1 {
   font-size: 3rem;
   margin-top: 5rem;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -548,8 +674,8 @@ nav img {
 .clip-path-changes {
   -webkit-clip-path: polygon(50% 95%, 0 100%, 100% 100%);
           clip-path: polygon(50% 95%, 0 100%, 100% 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -572,8 +698,8 @@ nav img {
   -webkit-box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
           box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
   padding: 1rem;
-  background: -webkit-gradient(linear, left top, right top, from(#044688), to(#0573c7));
-  background: linear-gradient(to right, #044688, #0573c7);
+  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
+  background: linear-gradient(to right, #0763c0, #0888eb);
 }
 
 .container img.onTop {
@@ -693,7 +819,7 @@ nav img {
 
 @media screen and (max-width: 1100px) {
   .logo {
-    width: 10rem;
+    width: 8rem;
   }
   .nav-links {
     height: 100%;
@@ -725,7 +851,7 @@ nav img {
   }
   .burger {
     position: fixed;
-    top: 5rem;
+    top: 4rem;
     right: 10rem;
     width: 4rem;
     cursor: pointer;
@@ -742,6 +868,12 @@ nav img {
             transform: translateY(100%);
     -webkit-transition: 1s ease;
     transition: 1s ease;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .logo {
+    width: 9rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

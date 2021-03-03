@@ -1,6 +1,6 @@
 @media screen and (max-width: 1100px) {
   .logo {
-    width: 10rem;
+    width: 8rem;
   }
 
   .nav-links {
@@ -34,7 +34,7 @@
   }
   .burger {
     position: fixed;
-    top: 5rem;
+    top: 4rem;
     right: 10rem;
     width: 4rem;
     cursor: pointer;
@@ -50,5 +50,11 @@
   .active {
     transform: translateY(100%);
     transition: 1s ease;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .logo {
+    width: 9rem;
   }
 }

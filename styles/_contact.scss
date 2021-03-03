@@ -1,6 +1,85 @@
 #contact {
   min-height: 100vh;
-  background: $background-yellow;
+  background: linear-gradient(to right, #fff, rgb(255, 216, 222));
   @include flex;
   flex-direction: column;
+  h1 {
+    font-size: 2.3rem;
+    margin: 2rem;
+  }
+
+  h2 {
+    margin: 2rem;
+  }
+  color: #044688;
+
+  a {
+    text-decoration: none;
+    color: #0b72da;
+    font-size: 1.8rem;
+  }
+  a:hover {
+    color: pink;
+  }
+}
+
+.contact-wrapper {
+  max-width: 80rem;
+  @include flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 70rem;
+  max-height: 40rem;
+  border: 1px solid black;
+  background: rgb(255, 224, 228);
+
+  padding: 2rem;
+
+  input {
+    background: transparent;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    margin: 2px;
+    color: #044688;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  input::placeholder {
+    color: #044688;
+  }
+
+  input:hover {
+    background: $background-blue;
+    color: pink;
+  }
+
+  input:hover::placeholder {
+    color: pink;
+  }
+
+  button {
+    background: transparent;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #044688;
+    padding: 0.2rem 2rem;
+    margin-top: 1rem;
+    border-radius: 2%;
+  }
+
+  button:hover {
+    background: $background-blue;
+    color: pink;
+  }
 }
