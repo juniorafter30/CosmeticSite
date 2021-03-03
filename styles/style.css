@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #ecc9e2;
+  background: #fcceef;
   border-radius: 1rem;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
@@ -113,7 +113,7 @@ nav ul li {
 }
 
 nav a {
-  color: #ecc9e2;
+  color: #fcceef;
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -340,7 +340,7 @@ form button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #ecc9e2;
+  color: #fcceef;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -418,13 +418,13 @@ form button:hover {
   z-index: 1;
   padding: 2rem;
   margin-top: 2rem;
-  color: #ffe6f8;
+  color: #fad6d6;
 }
 
 #products .products-intro {
   padding: 4rem;
   max-width: 80rem;
-  color: #ecc9e2;
+  color: #fcceef;
 }
 
 #products .products-intro p {
@@ -448,7 +448,7 @@ form button:hover {
 .product-name {
   font-size: 1.9rem;
   margin: 2rem;
-  color: #ffe6f8;
+  color: #fad6d6;
 }
 
 .product-cointainer {
@@ -488,7 +488,7 @@ form button:hover {
 }
 
 .product-text::-webkit-scrollbar-thumb {
-  background: #ecc9e2;
+  background: #fcceef;
   border-radius: 1rem;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
@@ -519,7 +519,7 @@ form button:hover {
      object-fit: cover;
   padding: 0.5rem;
   border: 1px solid black;
-  background: #ecc9e2;
+  background: #fcceef;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -537,7 +537,7 @@ form button:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  color: #ecc9e2;
+  color: #fcceef;
 }
 
 .product-name {
@@ -561,7 +561,7 @@ form button:hover {
 
 .order {
   margin: 1rem;
-  background: #ecc9e2;
+  background: #fcceef;
   border: none;
   padding: 0.5rem;
   -webkit-transition: 0.5s ease;
@@ -576,7 +576,7 @@ form button:hover {
 .order:hover {
   background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
   background: linear-gradient(to right, #0763c0, #0888eb);
-  color: #9d8897;
+  color: pink;
   -webkit-box-shadow: 1px 1px 1px 1px #1a43f8;
           box-shadow: 1px 1px 1px 1px #1a43f8;
 }
@@ -599,13 +599,13 @@ form button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #ecc9e2;
+  color: #fcceef;
   position: relative;
 }
 
 #about h1 {
   font-size: 3rem;
-  color: #ffe6f8;
+  color: #fad6d6;
   text-align: center;
 }
 
@@ -623,7 +623,7 @@ form button:hover {
 
 .about-wrapper a {
   text-decoration: none;
-  color: #ffe6f8;
+  color: #fad6d6;
   font-size: 1.6rem;
 }
 
@@ -762,7 +762,7 @@ form button:hover {
       -ms-flex: 2;
           flex: 2;
   text-align: center;
-  color: #ecc9e2;
+  color: #fcceef;
 }
 
 .slider-nav .arrow {
