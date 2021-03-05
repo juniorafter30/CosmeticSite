@@ -15,13 +15,13 @@ html {
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
-  background-color: linear-gradient(to right, #0763c0, #0888eb);
+  background-color: linear-gradient(to right, #c6e3ff, #46a9f5);
 }
 
 body::-webkit-scrollbar {
   width: 1.2rem;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -73,8 +73,8 @@ header {
 }
 
 .on-scroll {
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   min-height: 8vh;
   -webkit-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
@@ -113,7 +113,7 @@ nav ul li {
 }
 
 nav a {
-  color: #fcceef;
+  color: #044688;
   text-decoration: none;
   font-size: 1.6rem;
 }
@@ -126,8 +126,8 @@ nav img {
   width: 13rem;
   border-radius: 50%;
   padding: 1.5rem;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
 }
 
 .background-slider {
@@ -161,8 +161,7 @@ nav img {
   position: absolute;
   top: 20%;
   right: 20%;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: #044688;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.2rem;
@@ -175,8 +174,8 @@ nav img {
   left: 0;
   -webkit-clip-path: circle(52.8% at 80% 9%);
           clip-path: circle(52.8% at 80% 9%);
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   width: 100%;
   height: 100vh;
   z-index: -1;
@@ -293,8 +292,8 @@ form input::placeholder {
 }
 
 form input:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   color: pink;
 }
 
@@ -327,20 +326,20 @@ form button {
 }
 
 form button:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   color: pink;
 }
 
 #work {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #fcceef;
+  color: #044688;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,9 +392,9 @@ form button:hover {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
-  color: #9d8897;
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
+  color: #044688;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,6 +408,10 @@ form button:hover {
   z-index: 1;
 }
 
+#products h2 {
+  color: #044688;
+}
+
 #products header {
   border-bottom: 0.5px solid black;
 }
@@ -418,7 +421,7 @@ form button:hover {
   z-index: 1;
   padding: 2rem;
   margin-top: 2rem;
-  color: #fad6d6;
+  color: #044688;
 }
 
 #products .products-intro {
@@ -430,6 +433,7 @@ form button:hover {
 #products .products-intro p {
   font-size: 1.5rem;
   z-index: 1;
+  color: #044688;
 }
 
 .clip-path-products {
@@ -448,7 +452,7 @@ form button:hover {
 .product-name {
   font-size: 1.9rem;
   margin: 2rem;
-  color: #fad6d6;
+  color: #044688;
 }
 
 .product-cointainer {
@@ -466,8 +470,8 @@ form button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   padding: 2rem;
   border: 1px solid black;
   margin: 2rem;
@@ -537,7 +541,7 @@ form button:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
-  color: #fcceef;
+  color: #044688;
 }
 
 .product-name {
@@ -574,9 +578,9 @@ form button:hover {
 }
 
 .order:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
-  color: pink;
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
+  color: #044688;
   -webkit-box-shadow: 1px 1px 1px 1px #1a43f8;
           box-shadow: 1px 1px 1px 1px #1a43f8;
 }
@@ -584,8 +588,8 @@ form button:hover {
 #about {
   min-height: 100vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,13 +603,13 @@ form button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #fcceef;
+  color: #044688;
   position: relative;
 }
 
 #about h1 {
   font-size: 3rem;
-  color: #fad6d6;
+  color: #044688;
   text-align: center;
 }
 
@@ -623,7 +627,7 @@ form button:hover {
 
 .about-wrapper a {
   text-decoration: none;
-  color: #fad6d6;
+  color: #044688;
   font-size: 1.6rem;
 }
 
@@ -665,8 +669,7 @@ form button:hover {
 #przemiany h1 {
   font-size: 3rem;
   margin-top: 5rem;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: #044688;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -674,8 +677,8 @@ form button:hover {
 .clip-path-changes {
   -webkit-clip-path: polygon(50% 95%, 0 100%, 100% 100%);
           clip-path: polygon(50% 95%, 0 100%, 100% 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -698,8 +701,8 @@ form button:hover {
   -webkit-box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
           box-shadow: 2px 5px 5px 5px rgba(47, 54, 61, 0.5);
   padding: 1rem;
-  background: -webkit-gradient(linear, left top, right top, from(#0763c0), to(#0888eb));
-  background: linear-gradient(to right, #0763c0, #0888eb);
+  background: -webkit-gradient(linear, left top, right top, from(#c6e3ff), to(#46a9f5));
+  background: linear-gradient(to right, #c6e3ff, #46a9f5);
 }
 
 .container img.onTop {

@@ -48,7 +48,7 @@ nav {
     }
   }
   a {
-    color: $background-pink;
+    color: $textColor;
     text-decoration: none;
     font-size: 1.6rem;
   }
@@ -91,7 +91,7 @@ nav {
   position: absolute;
   top: 20%;
   right: 20%;
-  background: $background-blue;
+  background: $textColor;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.2rem;

@@ -21,11 +21,12 @@ html {
 
 //VARIABLES
 
-$background-blue: linear-gradient(to right, #0763c0, #0888eb);
+$background-blue: linear-gradient(to right, #c6e3ff, #46a9f5);
 $background-yellow: linear-gradient(to right, #fff, rgb(255, 216, 222));
 //$background-yellow: linear-gradient(to right, #dfc48d, #93a048);
 $background-pink: #fcceef;
 $headlines: #fad6d6;
+$textColor: #044688;
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);

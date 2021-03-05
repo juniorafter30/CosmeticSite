@@ -4,9 +4,12 @@
   width: 100%;
   position: relative;
   background: $background-blue;
-  color: #9d8897;
+  color: $textColor;
   @include flex;
   overflow: hidden;
+  h2 {
+    color: $textColor;
+  }
   header {
     border-bottom: 0.5px solid black;
   }
@@ -16,7 +19,7 @@
     z-index: 1;
     padding: 2rem;
     margin-top: 2rem;
-    color: $headlines;
+    color: $textColor;
   }
   .products-intro {
     padding: 4rem;
@@ -25,6 +28,7 @@
     p {
       font-size: 1.5rem;
       z-index: 1;
+      color: $textColor;
     }
   }
   z-index: 1;
@@ -45,7 +49,7 @@
   font-size: 1.9rem;
 
   margin: 2rem;
-  color: $headlines;
+  color: $textColor;
 }
 
 .product-cointainer {
@@ -106,7 +110,7 @@
   padding: 2rem;
   font-size: 1.4rem;
   flex: 1 1 30rem;
-  color: $background-pink;
+  color: $textColor;
 }
 
 .product-name {
@@ -135,6 +139,6 @@
 
 .order:hover {
   background: $background-blue;
-  color: pink;
+  color: $textColor;
   box-shadow: 1px 1px 1px 1px #1a43f8;
 }

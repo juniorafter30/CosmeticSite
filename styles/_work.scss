@@ -2,7 +2,7 @@
   min-height: 100vh;
   background: $background-blue;
   flex-direction: column;
-  color: $background-pink;
+  color: $textColor;
   @include flex;
 }
 
